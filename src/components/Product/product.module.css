@@ -1,0 +1,99 @@
+.product {
+  border: 1px solid #ccc;
+  padding: 2rem 2rem;
+  border-radius: 2%;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 55%;
+  margin-top: 2%;
+  color: #444;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 3vw;
+  height: 5vh;
+  margin: 0.8rem;
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  border-radius: 10%;
+  padding: 1rem;
+  cursor: pointer;
+  color: #4f46e5;
+}
+
+.increment {
+  background-color: #d0d8f7;
+}
+
+.decrement {
+  background-color: #f5d0fe;
+}
+
+.input {
+  padding: 0.3rem;
+  border: 1px solid #dddddd;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+
+.input:focus {
+  border: 1px solid #51cbee;
+}
+
+.deleteBtn {
+  background-color: #e11d48;
+  color: #fff;
+  margin: 1rem;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 8%;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.value {
+  display: inline-block;
+  width: 5vh;
+  height: 5vh;
+  background-color: #ede9fe;
+  border-radius: 50%;
+  color: #6d28d9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.remove {
+  color: #e11d48;
+  border: 1px solid #e11d48;
+}
+/*# sourceMappingURL=product.module.css.map */
